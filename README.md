@@ -31,6 +31,23 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
 
+####  URL TO THE DEPLOYMENT 
+###  my EBS Endpoint
+
+http://image-filter-app-0494-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LL3IcidnkmpVbjmmL93gsmv-pIlTpMXNVQ&usqp=CAU
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Stand Out (Optional)
 
 ### Refactor the course RESTapi
@@ -46,3 +63,9 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+
+
+####  URL TO THE DEPLOYMENT 
+
+http://image-filter-app-0494-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LL3IcidnkmpVbjmmL93gsmv-pIlTpMXNVQ&usqp=CAU
+
